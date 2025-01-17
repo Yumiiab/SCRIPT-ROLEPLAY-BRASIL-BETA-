@@ -8,7 +8,7 @@ local Window = Fluent:CreateWindow({
 
 local Tabs = {
     Main = Window:AddTab({ Title = "SCRIPTS" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+    Settings = Window:AddTab({ Title = "OUTROS SCRIPTS", Icon = "play" })
 }
 -- Parágrafos
 Tabs.Main:AddParagraph({ Title = "CRÉDITOS/SCRIPTS", Content = "SCRIPT FEITO POR = YUMI,DAVI,ERIKE IDEIA DE DAVI, PROGAMADOR YUMI" })
